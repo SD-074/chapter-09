@@ -20,12 +20,7 @@
     "module": "preserve", // Preserves ES module syntax (important for native ESM)
     "noEmit": false, // Enables output generation
     "rootDir": "src", // Explicit project root for import map resolution
-    "outDir": "dist", // Output directory for compiled JavaScript
-    /* Paths */
-    "baseUrl": "./src", // Base path for module resolution
-    "paths": {
-      "#*": ["*"] // Defines internal path aliases with '#' to avoid conflict with '@'
-    }
+    "outDir": "dist" // Output directory for compiled JavaScript
   },
-  "include": ["src"] // Files to include in compilation
+  "include": ["src/**/*"] // Files to include in compilation
 }
