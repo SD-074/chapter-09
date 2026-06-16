@@ -17,10 +17,9 @@
     /* Node Options*/
     "allowImportingTsExtensions": true, // Allows importing files with .ts extensions
     "rewriteRelativeImportExtensions": true, // Rewrites relative imports with correct extensions
-    "types": ["node"], // Ensures Node.js globals like process/console are available
     "module": "preserve", // Preserves ES module syntax (important for native ESM)
     "noEmit": false, // Enables output generation
-    "rootDir": "./src", // Explicit project root for import map resolution
+    "rootDir": "src", // Explicit project root for import map resolution
     "outDir": "dist" // Output directory for compiled JavaScript
   },
   "include": ["src/**/*"] // Files to include in compilation
